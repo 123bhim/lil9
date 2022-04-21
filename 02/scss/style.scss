@@ -1,0 +1,162 @@
+.top{
+    margin-top: 80px;
+    background: #fff;
+    top: 0;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    .content{
+        margin-bottom: 40vh;
+    text-align: center;
+    h1{
+        color: rgb(36, 17, 106);
+    }
+}
+}
+@media(max-width:770px){
+    .top{
+        h1{
+            font-size: 24px;
+        }
+        h5{
+            font-size: 18px;
+        }
+    }
+}
+.images{
+    text-align: center;
+    background: rgba(228, 237, 242, 0.5) !important;
+   
+    img{
+        width: 80%;
+       
+        margin-top: -30vh;
+    }
+}
+
+@media(max-width:770px){
+    .images{
+        
+        img{
+          
+            width: 30%;
+            margin-top: 5px;
+        }
+    }
+}
+ .services{
+    margin-top: 80px;
+    text-align: center;
+    background:rgb(241, 247, 251);
+    h3{
+        padding: 100px 0;
+    }
+ }
+ .borderl{
+     text-align: left;
+     display: flex;
+     align-items: center;
+    
+     padding: 15px ;
+     position: relative;
+     &::before{
+         content: '';
+         height: 100px;
+         width: 1px;
+         z-index: 1;
+         background: #000;
+         display: block;
+         position: absolute;
+         transform: translateX(-8px);
+     }
+ }
+ @media(max-width:770px){
+     .borderl{
+        margin-left: 29%;
+     }
+ }
+ .box{
+     background: #fff;
+     margin: 25px;
+     flex-wrap: nowrap;
+     p{
+         padding: 30px;
+     }
+     .box-img{
+         display: flex;
+         justify-content: start;
+     }
+ }
+
+ .contact{
+     text-align: center;
+     padding: 100px 0;
+     
+ }
+
+   .text{
+       margin-top: 30px;
+       width: 85vh;
+       height: 50px;
+       border: none !important;
+       margin-right: 5px;
+   }
+   @media(max-width:770px){
+       .text{
+           width: 30vh;
+           height: 20px;
+       }
+       .btn-primary{
+           height: 20px;
+           width: 5vh;
+       }
+   }
+   .btn-primary{
+       background: rgb(0, 174, 255) !important ;
+       border: none !important;
+       img{
+           padding-left: 5px;
+       }
+     
+       margin: 0;
+    width: 25vh;
+    height: 50px; 
+   }
+   @media(max-width:770px){
+   
+    .btn-primary{
+        height: 20px;
+        width: 10vh;
+        font-size: 7px;
+        position: relative;
+        padding-left: 0;
+        img{
+            position: absolute;
+            right: 5;
+
+            width: 15px;
+            height: 10px;
+        }
+    }
+}
+ @media(max-width:770px){
+     .offset-1{
+         float: left;
+        padding-left: 10px;
+     }
+ }
+body{
+    background: rgb(228, 237, 242);
+}
+#footer{
+    background: rgb(36, 17, 106);
+    color: #fff;
+    padding: 100px 0;
+    .fa{
+        margin-right: 5px;
+        background: #fff;
+        color: rgb(36, 17, 106);
+        padding: 5px;
+        font-size: 20px;
+    }
+}
